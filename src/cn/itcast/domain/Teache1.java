@@ -9,13 +9,14 @@ package cn.itcast.domain;
  **/
 public class Teache1 {
     private int id;
-    private String name;
+
+    public Teache1() {
+    }
 
     @Override
     public String toString() {
-        return "Teacher{" +
+        return "Teache1{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
                 '}';
     }
 
@@ -27,11 +28,5 @@ public class Teache1 {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }
